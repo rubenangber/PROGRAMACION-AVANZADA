@@ -1,2 +1,2 @@
 # PROGRAMACION-AVANZADA
-Programacion avanzada USAL
+Ejercicios de Programación Avanada (USAL)
