@@ -12,12 +12,10 @@ public class CyclicbehaviourImprimir extends CyclicBehaviour {
 		ACLMessage msg = this.myAgent.blockingReceive();
 		
 		try {
-			System.out.println(msg.getSender().getName() + ": " + (String)msg.getContentObject());
+			System.out.println("Origen: " + msg.getSender().getName() + ": " + (String)msg.getContentObject());
 		} catch (UnreadableException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
-
 }
