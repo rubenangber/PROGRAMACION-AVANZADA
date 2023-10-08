@@ -2,6 +2,7 @@ package es.usal.pa;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.Serializable;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -14,7 +15,6 @@ import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 import jade.lang.acl.UnreadableException;
-import jade.core.Agent;
 
 public class CyclicBehaviourBuscador extends CyclicBehaviour 
 {	
@@ -22,19 +22,28 @@ public class CyclicBehaviourBuscador extends CyclicBehaviour
 	@Override
 	public void action() 
 	{
-		//Esperar a que me llegue el request
-		ACLMessage msg = this.myAgent.blockingReceive(MessageTemplate.and(
-				MessageTemplate.MatchPerformative(ACLMessage.REQUEST), 
-				MessageTemplate.MatchOntology("ontologia")));
-		//llamar buscadorCadena
+		//esperar a que me llegue el request
+		ACLMessage msg=this.myAgent.blockingReceive(MessageTemplate.and(MessageTemplate.MatchOntology("ontologia"), MessageTemplate.MatchPerformative(ACLMessage.REQUEST)));
+		
+		
+		//llamar a buscarCadena
 		try {
-			List<String> listaNoticias = buscarCadena((String)msg.getContentObject());
+			List<String> listaNoticias=buscarCadena((String)msg.getContentObject());
 			
-			ACLMessage msg2
-		} catch (IOException e){
-			e.printStacktrace();
+			//contestar con un inform
+			ACLMessage msg2=msg.createReply();
+			msg2.setPerformative(ACLMessage.INFORM);
+			msg2.setContentObject((Serializable)listaNoticias);
+			this.myAgent.send(msg2);
+			
+		} catch (UnreadableException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		//Contestar con un inform
+	}
 	
 
 	public List<String> buscarCadena(String cadena)
