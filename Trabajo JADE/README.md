@@ -3,7 +3,7 @@ Las rutas de autobuses nocturnas suelen tener bastantes paradas por lo que hay m
 de los usuarios. El ayuntamiento para evitar las quejas ha decidido introducir una nueva línea
 que permita hacer atajos de manera que sea posible evitar parte de las paradas de la línea
 principal. Tras la remodelación el gráfico de las paradas y líneas es el siguiente:<br>
-<img src="Captura de pantalla 2023-11-21 124829.png" alt="Lineas">
+<img src="Captura de pantalla 2023-11-21 124829.png" alt="Lineas"><br>
 Para facilitar el servicio el ayuntamiento ha decidido proporcionar un planificador que permita
 a los usuarios determinar la ruta más corta de tiempo entre dos paradas. Para ello ha planteado
 el desarrollo de un sistema multiagente con las siguientes características:
