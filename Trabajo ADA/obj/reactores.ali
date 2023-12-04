@@ -1,0 +1,105 @@
+V "GNAT Lib v2011"
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U reactores%b		reactores.adb		ade2fada NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U reactores%s		reactores.ads		67d80c25 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D reactores.ads		20231203155912 452b5616
+D reactores.adb		20231202103512 ceeffc6c
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 16|2r6 11r37 14r27 15r21 15r48 16r17 17|4r6 4r25 26r10 31r10
+. 34r37 41r10
+X 6 a-reatim.ads
+39K13*Real_Time 139e18 16|2r10 11r41 14r31 15r25 15r52 16r21 17|4w10 4r29
+. 26r14 31r14 34r41 41r14
+41O9*Time 16|16r31
+46O9*Time_Span 16|15r35
+53V13*Clock{41O9} 17|25s37 37s37
+56V13*"+"{41O9} 17|25s35 37s35
+85V13*Milliseconds{46O9} 16|15s62
+X 7 a-rttiev.ads
+38K23*Timing_Events 81e32 16|2w20 11r51 14r41 17|26r24 31r24 34r51 41r24
+40R9*Timing_Event 75e14 16|11r65 14r55 17|34r65
+45U14*Set_Handler 17|26s38 31s38 41s38
+X 16 reactores.ads
+4K9*Reactores 18l5 18e14 17|6b14 44l5 44t14
+5W19*Reactor 17l8 17e15 17|7b19 43l8 43t15
+6U17 leer 6<22 17|8b17 11l11 11t15
+6i22 temp{integer} 17|8b22 10m10
+7U17 incrementar 7>29 17|13b17 16l11 16t22
+7i29 incremento{integer} 17|13b29 15r37
+8U17 decrementar 8>29 17|18b17 21l11 21t22
+8i29 decremento{integer} 17|18b30 20r39
+9U17 abrirPuerta 17|23b17 27l11 27t22
+10U17 cerrarPuerta 17|29b17 32l11 32t23
+11U17 Timer 11=23 17|26r80 34b17 41r79 42l11 42t16
+11r23 event{7|40R9} 17|34b23
+13i7 temperatura{integer} 17|10r16 15r10 15r25 20r10 20r25 36r10 36r25
+14r7 bajarJitterControl{7|40R9} 17|26r50 31r50 41r50
+15o7 bajarPeriodo{6|46O9} 17|25r22 37r22
+16o7 nextTime{6|41O9} 17|25r10 26r70 31r70 37r10 41r70
+X 45 text_io.ads
+24K9*Text_IO=24:29 17|3w6
+

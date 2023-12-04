@@ -1,0 +1,109 @@
+V "GNAT Lib v2011"
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnvvnnnnvnnnnnnnnnnnnnn
+
+U monitor%b		monitor.adb		61b7b033 NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U monitor%s		monitor.ads		d5775e2c EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.timing_events%s  a-rttiev.adb	a-rttiev.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D monitor.ads		20231201094644 94747276
+D monitor.adb		20231201094548 b015e48c
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca2.ads		20110428140906 fbd0f2fc
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 2r6 3r5 11r37 14r26 15r20 15r46 16r16 17|23r10 28r10
+. 31r37 37r10
+X 6 a-reatim.ads
+39K13*Real_Time 139e18 16|1w10 2r10 3r9 11r41 14r30 15r24 15r50 16r20 17|23r14
+. 28r14 31r41 37r14
+41O9*Time 16|16r30
+46O9*Time_Span 16|15r34
+53V13*Clock{41O9} 17|22s37 34s37
+56V13*"+"{41O9} 17|22s35 34s35
+87V13*Seconds{46O9} 16|15s60
+X 7 a-rttiev.ads
+38K23*Timing_Events 81e32 16|2w20 11r51 14r40 17|23r24 28r24 31r51 37r24
+40R9*Timing_Event 75e14 16|11r65 14r54 17|31r65
+45U14*Set_Handler 17|23s38 28s38 37s38
+X 10 a-textio.ads
+263U14*Put_Line 17|36s18
+X 16 monitor.ads
+4K9*Monitor 18l5 18e12 17|3b14 41l5 41t12
+5W19*Reactor 17l8 17e15 17|4b19 40l8 40t15
+6U17 leer 6<22 17|5b17 8l11 8t15
+6i22 temp{integer} 17|5b23 7m10
+7U17 incrementar 7>29 17|10b17 13l11 13t22
+7i29 incremento{integer} 17|10b29 12r39
+8U17 decrementar 8>29 17|15b17 18l11 18t22
+8i29 decremento{integer} 17|15b29 17r39
+9U17 abrirPuerta 17|20b17 24l11 24t22
+10U17 cerrarPuerta 17|26b17 29l11 29t23
+11U17 Timer 11=23 17|23r80 31b17 37r80 38l11 38t16
+11r23 event{7|40R9} 17|31b23
+13i7 temperatura{integer} 17|7r18 12r10 12r25 17r10 17r25 33r10 33r25 36r52
+14r7 bajarJitterControl{7|40R9} 17|23r50 28r50 37r50
+15o7 bajarPeriodo{6|46O9} 17|22r22 34r22
+16o7 nextTime{6|41O9} 17|22r10 23r70 28r70 34r10 37r70
+X 47 text_io.ads
+24K9*Text_IO=24:29 17|1w6 36r10
+
