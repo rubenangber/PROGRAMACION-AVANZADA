@@ -4,7 +4,7 @@ A -gnatA
 P SS ZX
 R nnnnnnnvnvnnnnnnnnvnnvnvnvvnvvnvnnnnnnnnnnvnvnnnnvnvnnnnnnvnvvnnnnvnnnv2nv1nv1+nnnv1+nn
 
-U main%b		main.adb		c208b1b4 NE OO SU IL
+U main%b		main.adb		b4421156 NE OO SU IL
 W actuadorescritorp%s	actuadorescritorp.adb	actuadorescritorp.ali
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
@@ -18,7 +18,6 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 W reactores%s		reactores.adb		reactores.ali
 W sensorlectorp%s	sensorlectorp.adb	sensorlectorp.ali
 W system%s		system.ads		system.ali
-W system.concat_2%s	s-conca2.adb		s-conca2.ali
 W system.concat_3%s	s-conca3.adb		s-conca3.ali
 W system.concat_4%s	s-conca4.adb		s-conca4.ali
 W system.img_int%s	s-imgint.adb		s-imgint.ali
@@ -32,7 +31,7 @@ W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 W text_io%s		text_io.ads		text_io.ali
 
-D actuadorescritorp.ads	20231201132104 b5c5fe62
+D actuadorescritorp.ads	20231205154252 b5c5fe62
 D ada.ads		20110428140902 3ffc8e18
 D a-calend.ads		20110428140858 343c83dd
 D a-caldel.ads		20110428140858 9f20b83d
@@ -53,12 +52,11 @@ D interfac.ads		20110428140906 f77d8799
 D i-c.ads		20110428140906 5421119b
 D i-cstrin.ads		20110428140906 341d0ddf
 D i-cstrea.ads		20110428140906 1bd72c32
-D main.adb		20231202104728 761c191d
-D reactores.ads		20231203155912 452b5616
-D sensorlectorp.ads	20231201133504 99c3bd55
+D main.adb		20231213101726 6e30feaa
+D reactores.ads		20231211105524 2b4d1143
+D sensorlectorp.ads	20231205154256 99c3bd55
 D system.ads		20110428140910 bc164b96
 D s-atacco.ads		20110428140906 1dc856ad
-D s-conca2.ads		20110428140906 fbd0f2fc
 D s-conca3.ads		20110428140906 762a026a
 D s-conca4.ads		20110428140906 025fe3be
 D s-crtl.ads		20110428140906 ac77b159
@@ -96,79 +94,78 @@ D s-wchcon.ads		20110428140910 bfeb2e3d
 D s-win32.ads		20110428140910 07238fa2
 D text_io.ads		20110428140910 45d626c9
 X 1 actuadorescritorp.ads
-5K9*ActuadorEscritorP 10e22 22|6w6 6r29 105r16 109r16 113r16
-6T14*Actuador 9e16 22|64r76 105r34 109r34 113r34
-7Y13 abrir 22|82s37
-8Y13 cerrar 22|89s37
+4K9*ActuadorEscritorP 9e22 22|5w6 5r29 106r16 110r16 114r16
+5T14*Actuador 8e16 22|65r76 106r34 110r34 114r34
+6Y13 abrir 22|83s37
+7Y13 cerrar 22|90s37
 X 2 ada.ads
-16K9*Ada 19e8 22|2r6 3r6 3r23 7r6 8r6 9r6 10r6 11r5 17r29
+16K9*Ada 19e8 22|1r6 2r6 2r23 6r6 7r6 8r6 9r6 10r5 16r29
 X 3 a-calend.ads
-36K13*Calendar 358e17 22|7w10 11r9
-38I9*Time 22|23r17 68r20 70r17
-52V13*Clock{38I9} 22|30s19 39s22 73s45 75s42 95s42
-94V13*"+"{38I9} 22|30s25 39s28
-95V13*"+"{38I9} 22|73s43 75s40 95s40
+36K13*Calendar 358e17 22|6w10 10r9
+38I9*Time 22|22r17 69r20 71r17
+52V13*Clock{38I9} 22|29s19 40s22 74s45 76s42 96s42
+94V13*"+"{38I9} 22|29s25 40s28
+95V13*"+"{38I9} 22|74s43 76s40 96s40
 X 9 a-numeri.ads
-16K13*Numerics 32e17 22|8w10 10r10 17r33
+16K13*Numerics 32e17 22|7w10 9r10 16r33
 X 10 a-nudira.ads
-44k22*Discrete_Random 73e33 22|10w19 17r42
-48R9 Generator 22|24r23[17]
-50V13 Random{integer} 22|33s28[17]
-53U14 Reset<40|91p14> 22|29s17[17]
+44k22*Discrete_Random 73e33 22|9w19 16r42
+48R9 Generator 22|23r23[16]
+53U14 Reset<39|91p14> 22|28s17[16]
 X 11 a-nudira.adb
-51V16 Random[40|74]{integer} 41|394b13[22|17]
+51V16 Random[39|74]{integer} 40|394b13[22|16]
 X 12 a-reatim.ads
-39K13*Real_Time 139e18 22|2w10 9w10
+39K13*Real_Time 139e18 22|1w10 8w10
 X 16 a-textio.ads
-49K13*Text_IO 471e16 22|3w10 3r27
-263U14*Put_Line 22|37s18 80s25 83s41 85s49 90s41 121s12
+49K13*Text_IO 471e16 22|2w10 2r27
+263U14*Put_Line 22|59s21 81s25 86s49 122s12 123s12
 X 18 interfac.ads
 57M9*Unsigned_32
 60M9*Unsigned_64
 X 22 main.adb
-14U11*main 14b11 123l5 123t9
-15A9 Reactores(23|5W19)<integer> 20r37 102r16
-16I12 reactorAleatorio{integer} 17r58 25r13
-17K12 Aleatorio[10|44] 24r13 29r7 33r18
-20T14 Temperatura 20d27 21b14 41l8 41t19 103r7
-22o7 intervalo{duration} 30r27 39r30
-23i7 nextTime{3|38I9} 30m7 38r22 39m10
-24r7 seed{10|48R9[17]} 29r23 33r35
-25i7 temp{16I12} 33m10 34r12 37r81
-44T14 Controlador 46l8 46e19 48b14 61l8 61t19 66r14
-45Y13 avisarme 52b20 55l17 55t25 93s21
-64T19 reactorTask 64d32 64d51 64d64 64d86 65b19 97l13 97t24 107r8 111r8 115r8
-64i51 id{integer} 80r47 83r63 85r71 90r63
-66t9 con{44T14} 93r17
-67o9 intervalo{duration} 75r30 95r30
-68i9 nextTimer{3|38I9} 75m17 94r29 95m17
-69o9 inicioIntervalo{duration} 73r27
-70i9 inicio{3|38I9} 73m17 74r29
-71i9 temperatura{integer} 78m26 78r26 80r87 81r28 84r36 88r31
-100U14 inicio 100b14 118l5 118t11 122s4
-102a4 rs{15A9} 103m19 103r19 105m44 105r44 106m37 106r37 107m20 107r20 109m44
-. 109r44 110m37 110r37 111m20 111r20 113m44 113r44 114m37 114r37 115m20 115r20
-103t4 t{20T14}
-105t4 a1{1|6T14} 107m37 107r37
-106t4 s1{24|6T14} 107m48 107r48
-107t4 r1{64T19}
-109t4 a2{1|6T14} 111m37 111r37
-110t4 s2{24|6T14} 111m48 111r48
-111t4 r2{64T19}
-113t4 a3{1|6T14} 115m37 115r37
-114t4 s3{24|6T14} 115m48 115r48
-115t4 r3{64T19}
+13U11*main 13b11 125l5 125t9
+14A9 Reactores(23|4W19)<integer> 19r37 103r16
+15I12 reactorAleatorio{integer} 16r58 24r13
+16K12 Aleatorio[10|44] 23r13 28r7
+19T14 Temperatura 19d27 20b14 42l8 42t19 104r7
+21o7 intervalo{duration} 29r27 40r30
+22i7 nextTime{3|38I9} 29m7 39r22 40m10
+23r7 seed{10|48R9[16]} 28r23
+24i7 temp{15I12} 34m10 35r12
+45T14 Controlador 47l8 47e19 49b14 62l8 62t19 67r14
+46Y13 avisarme 53b20 56l17 56t25 94s21
+65T19 reactorTask 65d32 65d51 65d64 65d86 66b19 98l13 98t24 108r8 112r8 116r8
+65i51 id{integer} 81r47 86r71
+67t9 con{45T14} 94r17
+68o9 intervalo{duration} 76r30 96r30
+69i9 nextTimer{3|38I9} 76m17 95r29 96m17
+70o9 inicioIntervalo{duration} 74r27
+71i9 inicio{3|38I9} 74m17 75r29
+72i9 temperatura{integer} 79m26 79r26 81r87 82r28 85r36 89r31
+101U14 inicio 101b14 119l5 119t11 124s4
+103a4 rs{14A9} 104m19 104r19 106m44 106r44 107m37 107r37 108m20 108r20 110m44
+. 110r44 111m37 111r37 112m20 112r20 114m44 114r44 115m37 115r37 116m20 116r20
+104t4 t{19T14}
+106t4 a1{1|5T14} 108m37 108r37
+107t4 s1{24|5T14} 108m48 108r48
+108t4 r1{65T19}
+110t4 a2{1|5T14} 112m37 112r37
+111t4 s2{24|5T14} 112m48 112r48
+112t4 r2{65T19}
+114t4 a3{1|5T14} 116m37 116r37
+115t4 s3{24|5T14} 116m48 116r48
+116t4 r3{65T19}
 X 23 reactores.ads
-4K9*Reactores 22|4w6 4r21 23|18e14
-5W19*Reactor 22|15r46 64r42 23|17e15
-7U17 incrementar 22|34s18
+3K9*Reactores 22|3w6 3r21 23|16e14
+4W19*Reactor 22|14r46 65r42 23|15e15
+6U17 incrementar 22|35s18
 X 24 sensorlectorp.ads
-5K9*SensorLectorP 22|5w6 5r25 106r16 110r16 114r16 24|9e18
-6T14*Sensor 22|64r98 106r30 110r30 114r30 24|8e14
-7Y13 leer 22|78s21
-X 40 s-rannum.ads
-66V13*Random{18|57M9} 41|223i21
-67V13*Random{18|60M9} 41|223i21
-X 63 text_io.ads
-24K9*Text_IO=24:29 22|12w6 37r10 80r17 83r33 85r41 90r33 121r4
+4K9*SensorLectorP 22|4w6 4r25 107r16 111r16 115r16 24|8e18
+5T14*Sensor 22|65r98 107r30 111r30 115r30 24|7e14
+6Y13 leer 22|79s21
+X 39 s-rannum.ads
+66V13*Random{18|57M9} 40|223i21
+67V13*Random{18|60M9} 40|223i21
+X 62 text_io.ads
+24K9*Text_IO=24:29 22|11w6 59r13 81r17 86r41 122r4 123r4
 

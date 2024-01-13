@@ -1,5 +1,3 @@
-
-
 with Text_IO;
 with Ada.Real_Time; use Ada.Real_Time;
 
@@ -15,15 +13,10 @@ package body Reactores is
          temperatura := temperatura+incremento;
       end incrementar;
 
-      procedure decrementar (decremento:Integer) is
-      begin
-         temperatura := temperatura - decremento;
-      end decrementar;
-
       procedure abrirPuerta is
       begin
          nextTime := bajarPeriodo + Clock;
-         Ada.Real_Time.Timing_Events.Set_Handler(bajarJitterControl, nextTime, Timer'Access);
+         Ada.Real_Time.Timing_Events.Set_Handler(bajarJitterControl, nextTime, decrementar'Access);
       end abrirPuerta;
 
       procedure cerrarPuerta is
@@ -31,14 +24,12 @@ package body Reactores is
          Ada.Real_Time.Timing_Events.Set_Handler(bajarJitterControl, nextTime, NULL);
       end cerrarPuerta;
 
-      procedure Timer(event: in out Ada.Real_Time.Timing_Events.Timing_Event) is
+      procedure decrementar(event: in out Ada.Real_Time.Timing_Events.Timing_Event) is
          begin
          temperatura := temperatura - 50;
          nextTime := bajarPeriodo + Clock;
-
-         -- Eliminar comprobacion
-         --Text_IO.Put_Line("Temperatura bajada: "&temperatura'Img);
-         Ada.Real_Time.Timing_Events.Set_Handler(bajarJitterControl, nextTime,Timer'Access);
-      end Timer;
+         --Text_IO.Put_Line("Temperatura reducida en Reactor: " & temperatura'Img);
+         Ada.Real_Time.Timing_Events.Set_Handler(bajarJitterControl, nextTime,decrementar'Access);
+      end decrementar;
    end Reactor;
 end Reactores;

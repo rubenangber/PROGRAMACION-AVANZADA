@@ -1,4 +1,3 @@
--- main.adb
 with Ada.Real_Time;
 with Ada.Text_IO; use Ada.Text_IO;
 with Reactores; use Reactores;
@@ -30,11 +29,13 @@ procedure main is
       nextTime := Clock + intervalo;
       loop
          -- Incremento aleatorio
-         temp := Aleatorio.Random(seed);
+         --temp := Aleatorio.Random(1);
+
+         temp := 1;
          r(temp).incrementar(150);
 
          -- Eliminar comprobacion
-         Text_IO.Put_Line("Simulación: Incrementando temperatura en Reactor " & temp'Img);
+         --Text_IO.Put_Line("Simulación: Incrementando temperatura en Reactor " & temp'Img);
          delay until nextTime;
          nextTime := Clock + intervalo;
       end loop;
@@ -55,7 +56,7 @@ procedure main is
             end avisarme;
          or
             delay 3.0;
-            --Text_IO.Put_Line("Controlador: Alerta - No se recibió respuesta en 3 segundos");
+            Text_IO.Put_Line("Controlador: Alerta - No se recibió respuesta en 3 segundos");
          end select;
       end loop;
    end Controlador;
@@ -80,14 +81,14 @@ procedure main is
       		Text_IO.Put_Line("Reactor " & id'Img & ": Lectura de temperatura: " & temperatura'Img);
       			if temperatura >= 1500 then
             			act.abrir;
-            			Text_IO.Put_Line("Reactor " & id'Img & ": Abriendo compuerta");
+            			--Text_IO.Put_Line("Reactor " & id'Img & ": Abriendo compuerta");
          			if temperatura > 1750 then
             				Text_IO.Put_Line("Reactor " & id'Img & ": Temperatura superior a 1750º - Manteniendo compuerta abierta");
 
          			end if;
       			elsif temperatura < 1500 then
             			act.cerrar;
-            			Text_IO.Put_Line("Reactor " & id'Img & ": Cerrando compuerta");
+            			--Text_IO.Put_Line("Reactor " & id'Img & ": Cerrando compuerta");
 
       			end if;
       		con.avisarme;
@@ -119,5 +120,6 @@ end inicio;
 
 begin
    Text_IO.Put_Line("SIMULACIÓN INICIADA:...");
+   Text_IO.Put_Line("Temperatura inicial:  1450");
    inicio;
 end main;

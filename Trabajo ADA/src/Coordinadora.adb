@@ -1,4 +1,3 @@
--- coordinadora.adb
 with Ada.Real_Time;
 use Ada.Real_Time;
 with Ada.Real_Time.Timing_Events;

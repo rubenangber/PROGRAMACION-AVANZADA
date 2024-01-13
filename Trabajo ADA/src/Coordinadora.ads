@@ -1,4 +1,3 @@
--- Coordinadora.ads
 with Ada.Real_Time;
 
 package Coordinadora is

@@ -3,7 +3,7 @@ A -gnatA
 P SS ZX
 R nnnnnnnnnvnnnnnnnnvnnvnnnvnnvnnvnnnnnnnnnnvnvnnnnnnvvnnnnnnnnvnvnnvnnnv2nv1nnnnnv1+nn
 
-U sensorlectorp%b	sensorlectorp.adb	cd0fff62 OO PK
+U sensorlectorp%b	sensorlectorp.adb	e286ae73 OO PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W ada.real_time.delays%s  a-retide.adb		a-retide.ali
@@ -15,7 +15,7 @@ W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-U sensorlectorp%s	sensorlectorp.ads	bf189d2a EE NE OO PK
+U sensorlectorp%s	sensorlectorp.ads	d17eda7f EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W reactores%s		reactores.adb		reactores.ali
@@ -41,9 +41,9 @@ D interfac.ads		20110428140906 f77d8799
 D i-c.ads		20110428140906 5421119b
 D i-cstrin.ads		20110428140906 341d0ddf
 D i-cstrea.ads		20110428140906 1bd72c32
-D reactores.ads		20231203155912 452b5616
-D sensorlectorp.ads	20231201133504 99c3bd55
-D sensorlectorp.adb	20231202000728 0f51c18a
+D reactores.ads		20231211105524 2b4d1143
+D sensorlectorp.ads	20231205154256 99c3bd55
+D sensorlectorp.adb	20231211112452 20d8909b
 D system.ads		20110428140910 bc164b96
 D s-atacco.ads		20110428140906 1dc856ad
 D s-crtl.ads		20110428140906 ac77b159
@@ -75,25 +75,25 @@ D s-unstyp.ads		20110428140908 6ae15c76
 D s-wchcon.ads		20110428140910 bfeb2e3d
 D s-win32.ads		20110428140910 07238fa2
 X 1 ada.ads
-16K9*Ada 19e8 18|2r6 19|1r6 2r6 6r16 7r16 9r27 9r54 10r17 16r28
+16K9*Ada 19e8 18|1r6 19|1r6 2r6 6r16 7r16 9r27 9r54 10r17 16r28
 X 6 a-reatim.ads
-39K13*Real_Time 139e18 18|2w10 19|2w10 6r20 7r20 9r31 9r58 10r21 16r32
+39K13*Real_Time 139e18 18|1w10 19|2w10 6r20 7r20 9r31 9r58 10r21 16r32
 41O9*Time 19|6r30 10r31
 46O9*Time_Span 19|7r30 9r41
 53V13*Clock{41O9} 19|16s42
 55V13*"+"{41O9} 19|16s48
-87V13*Seconds{46O9} 19|9s68
+85V13*Milliseconds{46O9} 19|9s68
 X 11 a-textio.ads
 49K13*Text_IO 471e16 19|1w10
 X 17 reactores.ads
-4K9*Reactores 18e14 18|3w6 3r21
-5W19*Reactor 17e15 18|6r31
-6U17 leer 19|17s18
+3K9*Reactores 16e14 18|2w6 2r21
+4W19*Reactor 15e15 18|5r31
+5U17 leer 19|17s18
 X 18 sensorlectorp.ads
-5K9*SensorLectorP 9l5 9e18 19|4b14 25l5 25t18
-6T14*Sensor 6d21 8l8 8e14 19|5b14 24l8 24t14
-7Y13 leer 7<18 19|15b20 19l17 19t21
-7i18 result{integer} 19|17m23 17r23
+4K9*SensorLectorP 8l5 8e18 19|4b14 25l5 25t18
+5T14*Sensor 5d21 7l8 7e14 19|5b14 24l8 24t14
+6Y13 leer 6<18 19|15b20 19l17 19t21
+6i18 result{integer} 19|17m23 17r23
 X 19 sensorlectorp.adb
 9o7 intervalo{6|46O9} 16r50
 10o7 nextTime{6|41O9} 16m16 18r28

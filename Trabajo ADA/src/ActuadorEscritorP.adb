@@ -1,4 +1,3 @@
--- ActuadorEscritorP.adb
 with Ada.Calendar;
 with Ada.Numerics;
 with Ada.Real_Time;

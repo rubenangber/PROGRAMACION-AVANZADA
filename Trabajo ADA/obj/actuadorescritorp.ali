@@ -18,7 +18,7 @@ W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 W text_io%s		text_io.ads		text_io.ali
 
-U actuadorescritorp%s	actuadorescritorp.ads	931ede1d EE NE OO PK
+U actuadorescritorp%s	actuadorescritorp.ads	fd789948 EE NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W reactores%s		reactores.adb		reactores.ali
@@ -28,8 +28,8 @@ W system.task_info%s	s-tasinf.adb		s-tasinf.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-D actuadorescritorp.ads	20231201132104 b5c5fe62
-D actuadorescritorp.adb	20231202103432 c8f43e04
+D actuadorescritorp.ads	20231205154252 b5c5fe62
+D actuadorescritorp.adb	20231211110436 c8f43e04
 D ada.ads		20110428140902 3ffc8e18
 D a-calend.ads		20110428140858 343c83dd
 D a-caldel.ads		20110428140858 9f20b83d
@@ -50,7 +50,7 @@ D interfac.ads		20110428140906 f77d8799
 D i-c.ads		20110428140906 5421119b
 D i-cstrin.ads		20110428140906 341d0ddf
 D i-cstrea.ads		20110428140906 1bd72c32
-D reactores.ads		20231203155912 452b5616
+D reactores.ads		20231211105524 2b4d1143
 D system.ads		20110428140910 bc164b96
 D s-atacco.ads		20110428140906 1dc856ad
 D s-crtl.ads		20110428140906 ac77b159
@@ -84,33 +84,33 @@ D s-wchcon.ads		20110428140910 bfeb2e3d
 D s-win32.ads		20110428140910 07238fa2
 D text_io.ads		20110428140910 45d626c9
 X 1 actuadorescritorp.ads
-5K9*ActuadorEscritorP 10l5 10e22 2|10b14 51l5 51t22
-6T14*Actuador 6d24 6d43 9l8 9e16 2|11b14 50l8 50t16
-6i43 id{integer}
-7Y13 abrir 2|19b20 32l17 32t22
-8Y13 cerrar 2|34b20 45l17 45t23
+4K9*ActuadorEscritorP 9l5 9e22 2|9b14 50l5 50t22
+5T14*Actuador 5d24 5d43 8l8 8e16 2|10b14 49l8 49t16
+5i43 id{integer}
+6Y13 abrir 2|18b20 31l17 31t22
+7Y13 cerrar 2|33b20 44l17 44t23
 X 2 actuadorescritorp.adb
-12o7 moverPuertaIntervalo{duration} 25r45 38r44
-13i7 movidaTimer{4|38I9} 25m22 26r34 38m22 39r34
-14b7 cerrado{boolean} 21r22 29m22 36r22 42m22
+11o7 moverPuertaIntervalo{duration} 24r45 37r44
+12i7 movidaTimer{4|38I9} 24m22 25r34 37m22 38r34
+13b7 cerrado{boolean} 20r22 28m22 35r22 41m22
 X 3 ada.ads
-16K9*Ada 1|2r6 2|2r6 3r6 4r6 5r6 6r5 3|19e8
+16K9*Ada 1|1r6 2|1r6 2r6 3r6 4r6 5r5 3|19e8
 X 4 a-calend.ads
-36K13*Calendar 2|2w10 6r9 4|358e17
-38I9*Time 2|13r19
-52V13*Clock{38I9} 2|25s37 38s36
-94V13*"+"{38I9} 2|25s43 38s42
+36K13*Calendar 2|1w10 5r9 4|358e17
+38I9*Time 2|12r19
+52V13*Clock{38I9} 2|24s37 37s36
+94V13*"+"{38I9} 2|24s43 37s42
 X 10 a-numeri.ads
-16K13*Numerics 2|3w10 5r10 10|32e17
+16K13*Numerics 2|2w10 4r10 10|32e17
 X 11 a-nudira.ads
-44k22*Discrete_Random 2|5w19 11|73e33
+44k22*Discrete_Random 2|4w19 11|73e33
 X 13 a-reatim.ads
-39K13*Real_Time 1|2w10 2|4w10 13|139e18
+39K13*Real_Time 1|1w10 2|3w10 13|139e18
 X 23 reactores.ads
-4K9*Reactores 1|3w6 3r21 23|18e14
-5W19*Reactor 1|6r34 23|17e15
-9U17 abrirPuerta 2|27s24
-10U17 cerrarPuerta 2|40s24
+3K9*Reactores 1|2w6 2r21 23|16e14
+4W19*Reactor 1|5r34 23|15e15
+7U17 abrirPuerta 2|26s24
+8U17 cerrarPuerta 2|39s24
 X 55 text_io.ads
-24K9*Text_IO=24:29 2|7w6
+24K9*Text_IO=24:29 2|6w6
 

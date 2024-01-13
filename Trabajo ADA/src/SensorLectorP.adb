@@ -6,7 +6,7 @@ package body SensorLectorP is
       use type Ada.Real_Time.Time;
       use type Ada.Real_Time.Time_Span;
 
-      intervalo: constant Ada.Real_Time.Time_Span := Ada.Real_Time.Seconds(1); -- 1 segundo
+      intervalo: constant Ada.Real_Time.Time_Span := Ada.Real_Time.Milliseconds(100); -- 1 segundo
       nextTime: Ada.Real_Time.Time;
 
    begin

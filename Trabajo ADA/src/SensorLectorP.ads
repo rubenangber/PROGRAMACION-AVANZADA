@@ -1,4 +1,3 @@
--- SensorLectorP.ads
 with Ada.Real_Time;
 with Reactores; use Reactores;
 
